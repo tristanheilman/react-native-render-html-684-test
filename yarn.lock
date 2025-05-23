@@ -4214,9 +4214,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.5.149":
-  version: 1.5.156
-  resolution: "electron-to-chromium@npm:1.5.156"
-  checksum: b69ba9ececc49cf0309e595ffc712a7a649cc71a2e215604d639330d3caa0394797f29c076ae4f8aa8f4c5b789cf647e5809dbf288b12cefdee6a092504caf80
+  version: 1.5.157
+  resolution: "electron-to-chromium@npm:1.5.157"
+  checksum: 479d1bb9458f0e19d0853a7f423b8a2468ca0f4a36772bfe115460183bc94662d63d4a4cde98c4aaf3c06e1840646e85dd48ef854ddf634fd169c6504540ea44
   languageName: node
   linkType: hard
 
@@ -8033,7 +8033,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-render-html@npm:^6.3.4":
+"react-native-render-html@npm:6.3.4":
   version: 6.3.4
   resolution: "react-native-render-html@npm:6.3.4"
   dependencies:
@@ -8050,6 +8050,26 @@ __metadata:
     react: "*"
     react-native: "*"
   checksum: 9fd0c915664d4d25d23f48b4b33101385f2e497c643664c09b457eb091f90cd1d60f9c2c4bfad1a55403c8037d52de5dcbdebe0b1ebc9e4883d8a3099a23633b
+  languageName: node
+  linkType: hard
+
+"react-native-render-html@patch:react-native-render-html@npm%3A6.3.4#./.yarn/patches/react-native-render-html-npm-6.3.4-35624feabf.patch::locator=BrowserTest%40workspace%3A.":
+  version: 6.3.4
+  resolution: "react-native-render-html@patch:react-native-render-html@npm%3A6.3.4#./.yarn/patches/react-native-render-html-npm-6.3.4-35624feabf.patch::version=6.3.4&hash=7e7e6c&locator=BrowserTest%40workspace%3A."
+  dependencies:
+    "@jsamr/counter-style": ^2.0.1
+    "@jsamr/react-native-li": ^2.3.0
+    "@native-html/transient-render-engine": 11.2.3
+    "@types/ramda": ^0.27.40
+    "@types/urijs": ^1.19.15
+    prop-types: ^15.5.7
+    ramda: ^0.27.2
+    stringify-entities: ^3.1.0
+    urijs: ^1.19.6
+  peerDependencies:
+    react: "*"
+    react-native: "*"
+  checksum: c8ac2ed7489e9477f3b93e9d0575e7153ec05b413d4d676029a285698ebe4087782bed56803dd1cc5f9b0dd2a2b3c47f8128184d1ff9f44f7d910062df7e0057
   languageName: node
   linkType: hard
 
